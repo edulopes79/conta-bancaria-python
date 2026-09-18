@@ -25,6 +25,6 @@ titular2 = ContaBancaria(f"{nome2}", f"R$ {salf2:.2f}")
 print(" ")
 print("-"*17)
 titular1.mostra_saldo()
-print(" "
+print(" ")
 titular2.mostra_saldo()
 print("-"*17)
