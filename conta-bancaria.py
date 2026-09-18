@@ -4,7 +4,7 @@ class ContaBancaria:
         self.saldo = saldo
 
     def mostra_saldo(self):
-        print(f"\nTitular: {self.titular}")
+        print(f"Titular: {self.titular}")
         print(f"Saldo: {self.saldo}")
 
 nome1 = input("Digite o nome do titular: ").upper().strip()
@@ -22,7 +22,6 @@ salf2 = sal_a2 + dep2 - sac2
 titular1 = ContaBancaria(f"{nome1}", f"R$ {salf1:.2f}")
 titular2 = ContaBancaria(f"{nome2}", f"R$ {salf2:.2f}")
 
-print(" ")
 print("-"*17)
 titular1.mostra_saldo()
 print(" ")
